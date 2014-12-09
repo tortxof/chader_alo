@@ -2,7 +2,7 @@
 *Created By Fahad Ahammed
 * http://obakfahad.com
 * http://fahad.pw
-* 
+*
 * me@fahad.pw
 * obak.krondon@gmail.com
 
@@ -12,7 +12,7 @@
 
 
 /*
- * 
+ *
  * font-family: 'Bree Serif', serif;
  * font-family: 'Ubuntu', sans-serif;
  * font-family: 'Ubuntu Condensed', sans-serif;
@@ -22,82 +22,82 @@
  * font-family: 'Droid Sans', sans-serif;
  * font-family: 'Droid Sans Mono', ;
  * font-family: 'Droid Serif', serif;
- * 
+ *
  */
 
 
 
-@font-face { 
-  font-family: Jenna Sue; 
-    src: url('../fonts/JennaSue-webfont.eot'); 
-    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf'); 
-} 
+@font-face {
+  font-family: Jenna Sue;
+    src: url('../fonts/JennaSue-webfont.eot');
+    src: local("Jenna Sue"), url('../fonts/JennaSue-webfont.ttf');
+}
 
-@font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-} 
+@font-face {
+  font-family: News Cycle;
+    src: url('../fonts/NewsCycle-Regular.eot');
+    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf');
+}
 
-html { 
+html {
   height: 100%;
 }
 
-* { 
+* {
   margin: 0;
   padding: 0;
 }
 
 /* tell the browser to render HTML 5 elements as block */
-article, aside, figure, footer, header, hgroup, nav, section { 
+article, aside, figure, footer, header, hgroup, nav, section {
   display:block;
 }
 
-body { 
+body {
   font: normal .80em arial, sans-serif;
-  background: #4A4E44 url(../images/pattern.png) repeat fixed;
+  background: #4A4E44 url(../images/bg.jpg) repeat fixed;
   color: #403838;
 }
 
-p { 
+p {
   padding: 0 0 20px 0;
   line-height: 1.7em;
   /* font: normal 130% 'News Cycle', arial, sans-serif; */
 	font: normal 130% 'Droid Serif', serif;
 }
 
-img { 
+img {
   border: 0;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   font: normal 170% arial, sans-serif;
   color: #444;
   margin: 0;
   padding: 15px 0 5px 0;
 }
 
-h1 { 
+h1 {
   color: #333;
   /*font: 400% 'Jenna Sue', arial, sans-serif;*/
   font: 400% 'Voltaire', sans-serif;
 }
 
-h2 { 
+h2 {
   /*font: normal 160% 'News Cycle', arial, sans-serif;*/
   /*font: normal 250% 'Yanone Kaffeesatz', sans-serif;*/
   font: normal 225% 'Voltaire', sans-serif;
-  color: #9A4267;  
+  color: #9A4267;
   margin: -5px 0 0 0;
   padding: 0 0 8px 0;
 }
 
-h3 { 
+h3 {
   /*font: normal 225% 'Jenna Sue', arial, sans-serif; */
   font: normal 225% 'Voltaire', sans-serif;
   }
 
-h4, h5, h6 { 
+h4, h5, h6 {
   margin: 0;
   padding: 0 0 5px 0;
   font: normal 110% arial, sans-serif;
@@ -105,17 +105,17 @@ h4, h5, h6 {
   line-height: 1.5em;
 }
 
-h5, h6 { 
+h5, h6 {
   font: italic 95% arial, sans-serif;
   color: #888;
   padding-bottom: 15px;
 }
 
-h6 { 
+h6 {
   color: #362C20;
 }
 
-a, a:hover { 
+a, a:hover {
   background: transparent;
   outline: none;
   /*text-decoration: underline;*/                   /* To add Underline on the links. */
@@ -123,13 +123,13 @@ a, a:hover {
   color: #F70676;
 }
 
-a:hover { 
+a:hover {
   text-decoration: none;
   color: #403838;
 }
 
-blockquote { 
-  margin: 20px 0; 
+blockquote {
+  margin: 20px 0;
   padding: 10px 20px 0 20px;
   border: 1px solid #E5E5DB;
   background: #EFEFEF;
@@ -138,58 +138,58 @@ blockquote {
 	-webkit-border-radius: 0.25em;
 }
 
-ul { 
+ul {
   margin: 2px 0 22px 17px;
 }
 
-ul li { 
+ul li {
   list-style-type: disc;
-  margin: 0 0 6px 0; 
+  margin: 0 0 6px 0;
   padding: 0 0 4px 5px;
 }
 
-ol { 
+ol {
   margin: 8px 0 22px 20px;
 }
 
-ol li { 
+ol li {
   margin: 0 0 11px 0;
 }
 
-.left { 
+.left {
   float: left;
   width: auto;
   margin-right: 10px;
 }
 
-.right { 
-  float: right; 
+.right {
+  float: right;
   width: auto;
   margin-left: 10px;
 }
 
-.center { 
+.center {
   display: block;
   text-align: center;
   margin: 20px auto;
 }
 
-#main, header, #logo, nav, #site_content, footer { 
-  margin-left: auto; 
+#main, header, #logo, nav, #site_content, footer {
+  margin-left: auto;
   margin-right: auto;
 }
 
-#main { 
+#main {
   width: 950px;
   margin: 20px auto;
 }
 
-#header { 
+#header {
   width: 950px;
   height: 150px;
 }
 
-#logo { 
+#logo {
   width: 900px;
   position: relative;
   height: 50px;
@@ -209,24 +209,24 @@ ol li {
   color: #FFF;
 }
 
-#logo h1 a .logo_colour { 
+#logo h1 a .logo_colour {
   color: #F70676;
 }
 
-#logo a:hover .logo_colour { 
+#logo a:hover .logo_colour {
   color: #FFF;
   text-decoration: none;
 }
 
-nav { 
+nav {
   float: left;
   height: 50px;
   width: 950px;
   margin: 1px auto 0 auto;
   background: url(../images/transparent.png);
-} 
+}
 
-#site_content { 
+#site_content {
   width: 950px;
   overflow: hidden;
   margin: 44px auto 0 auto;
@@ -234,30 +234,30 @@ nav {
   background: #FFF url(../images/site_content.png) repeat-y;
   border-top: 0;
   border-bottom: 0;
-} 
+}
 
-#sidebar_container { 
+#sidebar_container {
   float: right;
   width: 224px;
   padding: 10px 10px 20px 10px;
   background: #F6F4F4;
 }
 
-.sidebar { 
+.sidebar {
   float: right;
   padding: 0 15px;
   width: 192px;
   margin: 0 0 20px 0;
 }
 
-.sidebar h1 { 
+.sidebar h1 {
   padding: 5px 0 0 0;
   margin: 0;
   font: normal 200% 'Voltaire', sans-serif;
   color: #F70676;
 }
 
-#content { 
+#content {
   text-align: justify;
   width: 706px;
   padding: 0;
@@ -265,7 +265,7 @@ nav {
   background: #EAE5E5;
 }
 
-#content_item { 
+#content_item {
   width: 654px;
   padding: 10px 0 10px 25px;
 }
@@ -277,12 +277,12 @@ width: 100%;
 /* styling for the slideshow on the homepage */
 ul.slideshow {
   width: 706px;
-  height: 220px; 
+  height: 220px;
   overflow: hidden;
   position: relative;
   margin: 0;
   padding: 0;}
-  
+
 ul.slideshow li {
   position: absolute;
   margin: 0;
@@ -290,114 +290,114 @@ ul.slideshow li {
   left: 0;
   right: 0;
   list-style: none;}
- 
+
 ul.slideshow li.show {
   z-index: 500;}
- 
+
 ul img {
-  border: none; 
+  border: none;
   }
- 
-footer { 
+
+footer {
   width: 950px;
   font: normal 100% arial, sans-serif;
   height: 85px;
   padding: 27px 0 5px 0;
-  text-align: center; 
+  text-align: center;
   color: #FFF;
   line-height: 14px;
   background: transparent url(../images/transparent.png) repeat;
 }
 
-footer a, footer a:hover { 
+footer a, footer a:hover {
   color: #FFF;
   text-decoration: underline;
 }
 
-footer a:hover { 
+footer a:hover {
   color: #FFF;
   text-decoration: none;
 }
 
-.form_settings { 
+.form_settings {
   margin: 15px 0 0 0;
 }
 
-.form_settings p { 
+.form_settings p {
   padding: 0 0 4px 0;
 }
 
-.form_settings span { 
-  float: left; 
-  width: 200px; 
+.form_settings span {
+  float: left;
+  width: 200px;
   text-align: left;
 }
-  
-.form_settings input, .form_settings textarea { 
-  padding: 5px; 
-  width: 299px; 
-  font: 100% arial; 
-  border: 1px solid #E5E5DB; 
-  background: #FFF; 
+
+.form_settings input, .form_settings textarea {
+  padding: 5px;
+  width: 299px;
+  font: 100% arial;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
   color: #47433F;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;  
+  -webkit-border: 7px 7px 7px 7px;
 }
-  
-.form_settings .submit { 
-  /*font: 250% 'Jenna Sue', arial, sans-serif;*/ 
+
+.form_settings .submit {
+  /*font: 250% 'Jenna Sue', arial, sans-serif;*/
   font: 250% 'Voltaire', sans-serif;
-  border: 0; 
-  width: 99px; 
-  margin: 0 0 0 212px; 
+  border: 0;
+  width: 99px;
+  margin: 0 0 0 212px;
   height: 33px;
   padding: 2px 0 3px 0;
-  cursor: pointer; 
-  background: #222; 
+  cursor: pointer;
+  background: #222;
   color: #FFF;
   border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
-  -webkit-border: 7px 7px 7px 7px;  
+  -webkit-border: 7px 7px 7px 7px;
 }
 
-.form_settings textarea, .form_settings select { 
-  font: 100% arial; 
+.form_settings textarea, .form_settings select {
+  font: 100% arial;
   width: 299px;
 }
 
-.form_settings select { 
+.form_settings select {
   width: 310px;
 }
 
-.form_settings .checkbox { 
-  margin: 4px 0; 
-  padding: 0; 
+.form_settings .checkbox {
+  margin: 4px 0;
+  padding: 0;
   width: 14px;
   border: 0;
   background: none;
 }
 
-.separator { 
+.separator {
   width: 100%;
   height: 0;
   border-top: 1px solid #D9D5CF;
   border-bottom: 1px solid #FFF;
   margin: 0 0 20px 0;
 }
-  
-table { 
+
+table {
   margin: 10px 0 30px 0;
 }
 
-table tr th, table tr td { 
+table tr th, table tr td {
   background: #3B3B3B;
   color: #FFF;
   padding: 7px 4px;
   text-align: left;
 }
-  
-table tr td { 
+
+table tr td {
   background: #FFF;
   color: #47433F;
   border-top: 1px solid #ddd;
@@ -410,77 +410,77 @@ Author: Fahad Ahammed
 **/
 
 /* Configuration of menu width */
-html body ul.sf-menu ul,html body ul.sf-menu ul li { 
+html body ul.sf-menu ul,html body ul.sf-menu ul li {
   width: 220px;
 }
 
-html body ul.sf-menu ul ul 
+html body ul.sf-menu ul ul
 { margin: 0 0 0 220px;
 }
 
 /* Framework for proper showing/hiding/positioning */
-ul.sf-menu,ul.sf-menu * { 
+ul.sf-menu,ul.sf-menu * {
   margin: 0;
   padding: 0;
 }
 
-ul.sf-menu { 
+ul.sf-menu {
   display: block;
   position: relative;
 }
-  
-ul.sf-menu li { 
+
+ul.sf-menu li {
   display: block;
   list-style: none;
   float: left;
   position: relative;
 }
-  
+
 ul.sf-menu li:hover { visibility: inherit; /* fixes IE7 'sticky bug' */ }
 
-ul.sf-menu a { 
+ul.sf-menu a {
   display: block;
   position: relative;
 }
-  
-ul.sf-menu ul { 
+
+ul.sf-menu ul {
   position: absolute;
   left: 0;
-  width: 150px; 
+  width: 150px;
   top: auto;
   left: -999999px;
 }
-  
-ul.sf-menu ul a { 
-  zoom: 1; /* IE6/7 fix */ 
+
+ul.sf-menu ul a {
+  zoom: 1; /* IE6/7 fix */
 }
 
-ul.sf-menu ul li { 
+ul.sf-menu ul li {
   float: left; /* Must always be floated otherwise there will be a rogue 1px margin-bottom in IE6/7 */
   width: 150px;
 }
-  
-ul.sf-menu ul ul { 
+
+ul.sf-menu ul ul {
   top: 0;
   margin: 0 0 0 150px;
 }
 
-ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul, 
+ul.sf-menu li:hover ul,ul.sf-menu li:focus ul,ul.sf-menu li.sf-hover ul,
 ul.sf-menu ul li:hover ul,ul.sf-menu ul li:focus ul,ul.sf-menu ul li.sf-hover ul,
 ul.sf-menu ul ul li:hover ul,ul.sf-menu ul ul li:focus ul,ul.sf-menu ul ul li.sf-hover ul,
-ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul { 
+ul.sf-menu ul ul ul li:hover ul,ul.sf-menu ul ul ul li:focus ul,ul.sf-menu ul ul ul li.sf-hover ul {
   left: auto;
 }
-  
+
 ul.sf-menu li:hover ul ul,ul.sf-menu li:focus ul ul,ul.sf-menu li.sf-hover ul ul,
 ul.sf-menu ul li:hover ul ul,ul.sf-menu ul li:focus ul ul,ul.sf-menu ul li.sf-hover ul ul,
 ul.sf-menu ul ul li:hover ul ul,ul.sf-menu ul ul li:focus ul ul,ul.sf-menu ul ul li.sf-hover ul ul,
-ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul { 
+ul.sf-menu ul ul ul li:hover ul ul,ul.sf-menu ul ul ul li:focus ul ul,ul.sf-menu ul ul ul li.sf-hover ul ul {
   left: -999999px;
 }
 
 /* autoArrows CSS */
-span.sf-arrow { 
+span.sf-arrow {
   width: 7px;
   height: 7px;
   position: absolute;
@@ -492,23 +492,23 @@ span.sf-arrow {
   font-size: 1px;
 }
 
-ul ul span.sf-arrow { 
+ul ul span.sf-arrow {
   right: 10;
   top: 25px;
   background-position: 0 100%;
 }
 
 /* theming the menu */
-ul#nav { 
+ul#nav {
   float: left;
 }
 
-ul#nav ul { 
+ul#nav ul {
   background: url(../images/menu_hover.png) repeat;
   padding-bottom: 15px;
 }
 
-ul#nav li a { 
+ul#nav li a {
   padding: 4px 25px 16px 25px;
   font: 160% 'News Cycle', arial, sans;
   text-shadow: 1px 1px #000;
@@ -517,11 +517,11 @@ ul#nav li a {
   margin-right: 5px;
 }
 
-ul#nav ul li a { 
+ul#nav ul li a {
   padding: 7px 25px 7px 25px;
 }
 
-ul#nav li a:hover,ul#nav li a:focus { 
+ul#nav li a:hover,ul#nav li a:focus {
   color: #F70676;
 }
 
@@ -547,7 +547,7 @@ pre {
 	white-space: pre;
 	white-space: -moz-pre-wrap;
 	white-space: pre-wrap;
-	white-space: pre\9; 
+	white-space: pre\9;
 	border-radius:0.25em;
 	-moz-border-radius: 0.25em;
 	-webkit-border-radius: 0.25em;
@@ -560,7 +560,7 @@ pre {
 
 /* Posts */
 article span.post-stamp {
-	color:#888;     
+	color:#888;
 }
 h1.post-title {
 	margin-top:0.35em;
@@ -583,7 +583,7 @@ h3.post-title {
 	background-color:#ccc;
 	color:#1E90FF;
 	padding:0.3em 0.6em 0.3em 0.6em;
-	vertical-align:10%;  
+	vertical-align:10%;
 	font-size:0.6em;
 	font-family: "Open Sans", sans-serif;
 	font-weight: 700 !important;
